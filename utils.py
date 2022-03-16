@@ -1,6 +1,6 @@
 import os
 import time
-from torch.utils.tensorboard import SummaryWriter
+from tensorboard import SummaryWriter
 import logging
 
 def setattr_cls_from_kwargs(cls, kwargs):
