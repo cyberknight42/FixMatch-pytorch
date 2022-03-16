@@ -1,6 +1,6 @@
 import os
 import time
-from tensorboard import SummaryWriter
+from tensorboardX import SummaryWriter
 import logging
 
 def setattr_cls_from_kwargs(cls, kwargs):
